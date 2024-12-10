@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vartotojų Sąrašas</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script src="script1.js" defer></script>
+  </head>
+  <body>
+    <h1>Vartotojų Sąrašas</h1>
+    <form id="userForm">
+      <input type="text" id="name" placeholder="Vardas" required />
+      <input type="email" id="email" placeholder="El. paštas" required />
+      <button type="submit">Pridėti vartotoją</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Vardas</th>
+          <th>El. paštas</th>
+          <th>Veiksmai</th>
+        </tr>
+      </thead>
+      <tbody id="userTable"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
